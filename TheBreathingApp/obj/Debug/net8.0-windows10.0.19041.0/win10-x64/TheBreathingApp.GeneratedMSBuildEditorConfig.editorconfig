@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TheBreathingApp
+build_property.ProjectDir = D:\Code\TheBreathingApp\TheBreathingApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Code/TheBreathingApp/TheBreathingApp/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.About.xaml
+build_metadata.AdditionalFiles.TargetPath = About.xaml
+build_metadata.AdditionalFiles.RelativePath = About.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/AlternateNostrilBreathing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.AlternateNostrilBreathing.xaml
+build_metadata.AdditionalFiles.TargetPath = AlternateNostrilBreathing.xaml
+build_metadata.AdditionalFiles.RelativePath = AlternateNostrilBreathing.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/BoxBreathing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.BoxBreathing.xaml
+build_metadata.AdditionalFiles.TargetPath = BoxBreathing.xaml
+build_metadata.AdditionalFiles.RelativePath = BoxBreathing.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/BreathTest.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.BreathTest.xaml
+build_metadata.AdditionalFiles.TargetPath = BreathTest.xaml
+build_metadata.AdditionalFiles.RelativePath = BreathTest.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/FourSevenEightBreathing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.FourSevenEightBreathing.xaml
+build_metadata.AdditionalFiles.TargetPath = FourSevenEightBreathing.xaml
+build_metadata.AdditionalFiles.RelativePath = FourSevenEightBreathing.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/HummingBeeBreathing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.HummingBeeBreathing.xaml
+build_metadata.AdditionalFiles.TargetPath = HummingBeeBreathing.xaml
+build_metadata.AdditionalFiles.RelativePath = HummingBeeBreathing.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/Information.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.Information.xaml
+build_metadata.AdditionalFiles.TargetPath = Information.xaml
+build_metadata.AdditionalFiles.RelativePath = Information.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/Records.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.Records.xaml
+build_metadata.AdditionalFiles.TargetPath = Records.xaml
+build_metadata.AdditionalFiles.RelativePath = Records.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Code/TheBreathingApp/TheBreathingApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TheBreathingApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

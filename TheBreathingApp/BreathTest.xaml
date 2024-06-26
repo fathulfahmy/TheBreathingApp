@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TheBreathingApp.BreathTest"
+    Title="Short Of Breath Test">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            Spacing="16">
+            <StackLayout>
+                <Label
+                    Text="1. When do you get out of breath?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question1"
+                    Content="Very often"
+                    Value="4"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question1"
+                    Content="Often"
+                    Value="3"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question1"
+                    Content="Moderate"
+                    Value="2"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question1"
+                    Content="Rarely"
+                    Value="1"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question1"
+                    Content="Very rarely"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="2. Do you worry about getting out of breath?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question2"
+                    Content="Yes"
+                    Value="3"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question2"
+                    Content="No"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="3. Have you ever seen a doctor about feeling out of breath?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question3"
+                    Content="Yes"
+                    Value="2"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question3"
+                    Content="No"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="4. Has seeing a doctor helped your breathlessness?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question4"
+                    Content="Yes"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question4"
+                    Content="No"
+                    Value="3"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question4"
+                    Content="Not Sure"
+                    Value="1"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="5. Do you have a diagnosis for shortness of breath?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question5"
+                    Content="Yes"
+                    Value="5"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question5"
+                    Content="No"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="6. Do you feel you can manage your shortness of breath?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question6"
+                    Content="Yes"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question6"
+                    Content="No"
+                    Value="3"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question6"
+                    Content="Not Sure"
+                    Value="1"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="7. Do you do 20 minutes of daily physical activity?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question7"
+                    Content="Yes"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question7"
+                    Content="No"
+                    Value="2"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question7"
+                    Content="Not Sure"
+                    Value="1"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="8. Do you smoke?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question8"
+                    Content="Yes"
+                    Value="5"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question8"
+                    Content="No"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Text="9. What is your BMI?"
+                    FontAttributes="Bold" />
+                <RadioButton
+                    GroupName="Question9"
+                    Content="Underweight"
+                    Value="1"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question9"
+                    Content="Normal"
+                    Value="0"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question9"
+                    Content="Overweight"
+                    Value="2"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question9"
+                    Content="Obese"
+                    Value="3"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+                <RadioButton
+                    GroupName="Question9"
+                    Content="Extremely Obese"
+                    Value="4"
+                    CheckedChanged="OnRadioButtonCheckedChanged" />
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="4"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="Score"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center" />
+                <Label
+                    x:Name="outputScore"
+                    Text="0"
+                    FontAttributes="Bold"
+                    FontSize="48"
+                    HorizontalTextAlignment="Center" />
+                <Label
+                    x:Name="outputResult"
+                    Text="Please fill the form"
+                    HorizontalTextAlignment="Center" />
+            </StackLayout>
+            <FlexLayout
+                Direction="Row"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+                <Button
+                    x:Name="resetButton"
+                    Text="Reset"
+                    VerticalOptions="CenterAndExpand"
+                    HeightRequest="48"
+                    WidthRequest="170"
+                    TextColor="White"
+                    BackgroundColor="#038387"
+                    Clicked="OnReset" />
+                <Button
+                    x:Name="submitButton"
+                    Text="Submit"
+                    VerticalOptions="CenterAndExpand"
+                    HeightRequest="48"
+                    WidthRequest="170"
+                    Clicked="OnSubmit" />
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

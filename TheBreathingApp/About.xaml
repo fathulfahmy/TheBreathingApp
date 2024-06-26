@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TheBreathingApp.About"
+    Title="About">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            Spacing="16">
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+
+                <Image
+                    Source="thebreathingapp.png"
+                    WidthRequest="128" />
+
+                <Label
+                    x:Name="appName"
+                    Text="Error fetching data"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"></Label>
+                <Label
+                    Text="The Breathing App is a mobile application designed to promote healthy breathing habits and empower users to manage shortness of breath. It offers a variety of guided breathing exercises, educational resources, and a self-assessment tool"
+                    HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Image
+                    Source="patui.png"
+                    WidthRequest="128" />
+                <Label
+                    Text="Developer"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    x:Name="developer"
+                    Text="2024 © Fathul Fahmy"></Label>
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="Package Name"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    x:Name="packageName"
+                    Text="Error fetching data"></Label>
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="Build"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    x:Name="appBuild"
+                    Text="Error fetching data"></Label>
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="App Version"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    x:Name="appVersion"
+                    Text="Error fetching data"></Label>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

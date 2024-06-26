@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TheBreathingApp.Information"
+    Title="Information">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            Spacing="16">
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="How Short of Breath Test Works"
+                    FontSize="Medium"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    Text="1. Questions cover aspects such as frequency, triggers, duration, impact on daily activities, and any associated symptoms."></Label>
+                <Label
+                    Text="2. Each response is assigned a score based on predetermined criteria."></Label>
+                <Label
+                    Text="3. The collected responses are analyzed to assess the severity or likelihood of shortness of breath being a significant concern."></Label>
+            </StackLayout>
+            <StackLayout
+                Padding="16"
+                Spacing="8"
+                BackgroundColor="WhiteSmoke">
+                <Label
+                    Text="How Breathing Technique Works"
+                    FontSize="Medium"
+                    FontAttributes="Bold"></Label>
+                <Label
+                    Text="1. When you feel stressed, your breath tends to become fast and shallow. "></Label>
+                <Label
+                    Text="2. This limits the oxygen entering your bloodstream."></Label>
+                <Label
+                    Text="3. Your brain tells your body that there is a threat,and your body responds in fight or flight."></Label>
+                <Label
+                    Text="4. When you take time to slow down and purposefully breathe deeply and slowly, you tell your brain that everything is OK."></Label>
+                <Label
+                    Text="5. Your brain communicates to your body that it’s safe to relax."></Label>
+                <Label
+                    Text="6. The fight or flight response decreases, and your body can begin to function normally again."></Label>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

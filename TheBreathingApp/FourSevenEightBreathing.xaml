@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TheBreathingApp.FourSevenEightBreathing"
+    Title="Breathing Techniques">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            Spacing="16">
+            <StackLayout
+                Spacing="8">
+                <Label
+                    Text="4-7-8 Breathing"
+                    FontSize="Large"
+                    FontAttributes="Bold"></Label>
+                <StackLayout
+                    BackgroundColor="WhiteSmoke"
+                    Padding="16"
+                    Spacing="4">
+                    <Label
+                        Text="Exhale completely through your mouth." />
+                </StackLayout>
+                <StackLayout
+                    BackgroundColor="WhiteSmoke"
+                    Padding="16"
+                    Spacing="4">
+                    <Label
+                        Text="Inhale quietly through your nose" />
+                    <Label
+                        Text="4 seconds"
+                        TextColor="Gray" />
+                </StackLayout>
+                <StackLayout
+                    BackgroundColor="WhiteSmoke"
+                    Padding="16"
+                    Spacing="4">
+                    <Label
+                        Text="Hold your breath" />
+                    <Label
+                        Text="7 seconds"
+                        TextColor="Gray" />
+                </StackLayout>
+                <StackLayout
+                    BackgroundColor="WhiteSmoke"
+                    Padding="16"
+                    Spacing="4">
+                    <Label
+                        Text="Exhale completely through your mouth, pursing your lips and making a whoosh sound" />
+                    <Label
+                        Text="8 seconds"
+                        TextColor="Gray" />
+                </StackLayout>
+                <StackLayout
+                    BackgroundColor="WhiteSmoke"
+                    Padding="16"
+                    Spacing="4">
+                    <Label
+                        Text="Repeat steps for a few minutes." />
+                </StackLayout>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

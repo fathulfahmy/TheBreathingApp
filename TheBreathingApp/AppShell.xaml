@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TheBreathingApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TheBreathingApp"
+    Shell.FlyoutBehavior="Flyout"
+    Title="TheBreathingApp"
+    Shell.TitleColor="#02494c"
+    Shell.ForegroundColor="#02494c"
+    Shell.BackgroundColor="#9bd9db">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout>
+            <Label
+                Text="Menu"
+                HeightRequest="48"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"></Label>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+    <ShellContent
+        Title="Breathing Techniques"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Short of Breath Test"
+        ContentTemplate="{DataTemplate local:BreathTest}"
+        Route="BreathTest" />
+    <ShellContent
+        Title="Test Records"
+        ContentTemplate="{DataTemplate local:Records}"
+        Route="Records" />
+    <ShellContent
+        Title="About"
+        ContentTemplate="{DataTemplate local:About}"
+        Route="About" />
+    <ShellContent
+        Title="Information"
+        ContentTemplate="{DataTemplate local:Information}"
+        Route="Information" />
+
+</Shell>
